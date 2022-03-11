@@ -204,5 +204,6 @@ const Timeline = (props: TimelineProps) => {
   );
 };
 
-export {Event as TimelineEventProps, PackedEvent as TimelinePackedEventProps};
+
+export type {Event as TimelineEventProps, PackedEvent as TimelinePackedEventProps};
 export default React.memo(Timeline);
